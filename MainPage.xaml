@@ -32,6 +32,14 @@
                 </Picker.ItemsSource>
             </Picker>
 
+            <Button Text="Convertir"
+                    Clicked="KROnConvertButtonClicked"
+                    Margin="0,20,0,20"/>
+
+            <Label x:Name="KRResultLabel"
+                    FontSize="18"
+                    HorizontalTextAlignment="Center"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
