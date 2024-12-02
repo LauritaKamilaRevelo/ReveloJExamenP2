@@ -40,6 +40,10 @@
                     FontSize="18"
                     HorizontalTextAlignment="Center"/>
 
+            <Button Text="Limpiar"
+                    Clicked="KROnClearButtonClicked"
+                    Margin="0,20,0,20"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
