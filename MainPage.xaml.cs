@@ -34,7 +34,7 @@ namespace ReveloJExamenP2
                 if (!string.IsNullOrEmpty(fromUnit) && !string.IsNullOrEmpty(toUnit))
                 {
                     double result = ConvertVolume(valor, fromUnit, toUnit);
-                    KRResultLabel.Text = $"{valor} {fromUnit} = {result:F5} {toUnit}";
+                    KRResultLabel.Text = $"{valor} {fromUnit} = {result:F3} {toUnit}";
                 }
                 else
                 {

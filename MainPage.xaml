@@ -14,9 +14,9 @@
             Title="Seleccionar la unidad de origen">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Litros</x:String>
-                        <x:String>Galones</x:String>
-                        <x:String>Metros cubicos</x:String>
+                        <x:String>KRLitros</x:String>
+                        <x:String>KRGalones</x:String>
+                        <x:String>KRMetros cubicos</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
@@ -25,9 +25,9 @@
                     Title="Seleccionar la unidad de destino">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Litros</x:String>
-                        <x:String>Galones</x:String>
-                        <x:String>Metros cubicos</x:String>
+                        <x:String>KRLitros</x:String>
+                        <x:String>KRGalones</x:String>
+                        <x:String>KRMetros cubicos</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
