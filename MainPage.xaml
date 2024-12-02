@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReveloJExamenP2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30">
+            <Entry x:Name="KRValueEntry"
+                   Placeholder="Introduce el valor"
+                   Keyboard="Numeric"
+                   Margin="0,0,0,20"/>
+            
+            <Picker x:Name="KRFromUnitPicker"
+            Title="Seleccionar la unidad de origen">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Litros</x:String>
+                        <x:String>Galones</x:String>
+                        <x:String>Metros cubicos</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="KRToUnitPicker"
+                    Title="Seleccionar la unidad de destino">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Litros</x:String>
+                        <x:String>Galones</x:String>
+                        <x:String>Metros cubicos</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

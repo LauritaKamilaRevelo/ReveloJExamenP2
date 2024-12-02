@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReveloJExamenP2", "ReveloJExamenP2.csproj", "{5723567F-3E7B-41F5-B786-F785C5F34B75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5723567F-3E7B-41F5-B786-F785C5F34B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5723567F-3E7B-41F5-B786-F785C5F34B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5723567F-3E7B-41F5-B786-F785C5F34B75}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5723567F-3E7B-41F5-B786-F785C5F34B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5723567F-3E7B-41F5-B786-F785C5F34B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5723567F-3E7B-41F5-B786-F785C5F34B75}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3B2E76D-3240-435B-A29B-975EA5157C92}
+	EndGlobalSection
+EndGlobal
